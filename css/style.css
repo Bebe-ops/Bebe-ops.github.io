@@ -8,7 +8,7 @@ body {
 
 #box {
     background-color:black;
-    padding:30px;
+    padding:0 30px 40px 30px;
 }
 
 
@@ -16,34 +16,48 @@ body {
 #content {
     font-family: 'Crimson Text', serif;
     font-size: 40px;
-    color: bisque;
+    color:khaki;
     text-align: center;
 }
 
-li, p {
-    font-family: 'Roboto', sans-serif;*/
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align:justify;
 }
 
 #menu {
     list-style-type: none;      /*ezzel eltüntettem a pontokat a felsorolásból*/
     text-align:center;
-    margin:0;
-    padding:0;
+    padding:30px;
+    height:100px;
+   
 }
 
 li {
     display: inline;
+    font-family: 'Roboto', sans-serif;
 }
 
-a {
+.point {
    text-decoration: none; 
-   font-size: 50px;
+   font-size: 40px;
    font-family:'Crimson Text', serif;
    border:solid 1px #28A745;
    background: #28A745; 
    border-radius: 8%;
-   margin:100px;
-   margin-top:200px;
-   padding:5px;
    color:darkslategrey;
+   margin:20px;
+}
+
+img {
+    float: left;
+    width: 320px;
+    margin-right:15px;
+  
+}
+
+#arrow {
+    width:30px;
+    position:absolute;
+    right:70px;
 }
