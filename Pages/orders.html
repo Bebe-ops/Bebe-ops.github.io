@@ -22,16 +22,71 @@
             </li>
         </ul>
         <h1 id="content">Orders</h1>
-        <h2>Step of order</h2>
-        <ol>
-            <li>Choose a burger</li>
-            <li>Buy it</li>
-            <li>Give your address</li>
-            <li>Eat it</li>
-        </ol>
+        
+         <form>
+            <div>
+                <label for="name">Név: *</label>
+                <input id="name" name="name" type="text" required>
+            </div>
+            <div>
+                <label for="email">Email cím: *</label>
+                <input id="email" name="email" type="email" required>
+            </div>
+            <div>
+                <label for="address">Cím: *</label>
+                <input id="address" name="address" type="address" required>
+            </div>
+            <div>
+                <label for="comment">Cím: *</label>
+                <textarea id="comment" name="comment" rows="5"></textarea>
+            </div>
+            <span>Extra feltét:</span>
+            <div>
+                <input id="nothing" name="extra" type="radio" value="0">
+                <label for="nothing">Nem kérek</label>
+            </div>
+            <div>
+                <input id="cheese" name="extra" type="radio" value="300">
+                <label for="cheese">feltét 1</label>
+            </div>
+            <div>
+                <input id="double-cheese" name="extra" type="radio" value="600">
+                <label for="double-cheese">feltét 2</label>
+            </div>
+            <div>
+                <input id="double-meet" name="extra" type="radio" value="700">
+                <label for="double-meet">feltét 3</label>
+            </div>
+            <div>
+                <input id="double-double" name="extra" type="radio" value="900">
+                <label for="double-double">feltét 4</label>
+            </div>
+            <div>
+                <input id="double-meat" name="extra" type="radio" value="900">
+                <label for="nothing">feltét 5</label>
+            </div>
+            <div>
+                <label for="sauce">Szósz:</label>
+                <select id="sauce" name="sauce">
+                    <option value="barbeque">Barbeque</option>
+                    <option value="mayoneisse">Mayoneisse</option>
+                    <option value="tomato">Tomato</option>
+                    <option value="chilli">Chilli</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="portion">Mennyiség</label>
+                <input id="portion" name="portion" type="text">
+            </div>
+            <button>Rendelés leadása</button>
+        </form>
+
+
         <a href="orders.html#content"><img src="/img/arrow.png" alt="page up" width="30" id="arrow"></a>
         <!--Horgony-->
     </div>
 </body>
 
 </html>
+

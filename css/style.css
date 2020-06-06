@@ -18,6 +18,7 @@ body {
     font-size: 40px;
     color:khaki;
     text-align: center;
+    padding:20px;
 }
 
 p {
@@ -33,7 +34,7 @@ p {
    
 }
 
-li {
+#menu li {
     display: inline;
     font-family: 'Roboto', sans-serif;
 }
@@ -61,3 +62,6 @@ img {
     position:absolute;
     right:70px;
 }
+
+
+
