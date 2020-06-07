@@ -4,11 +4,13 @@ body {
     background-color: rgb(255,208,0);
     padding:60px;
     color:khaki;
+    font-size:30px;
 }
 
 #box {
     background-color:black;
-    padding:0 30px 40px 30px;
+    padding:0 50px 40px 50px;
+    margin:30px;
 }
 
 
@@ -19,6 +21,7 @@ body {
     color:khaki;
     text-align: center;
     padding:20px;
+    margin-bottom:50px;
 }
 
 p {
@@ -62,6 +65,7 @@ img {
     position:absolute;
     right:70px;
 }
+
 
 
 
